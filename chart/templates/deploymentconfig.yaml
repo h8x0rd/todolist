@@ -33,7 +33,7 @@ spec:
         - name: NODE_ENV
           value: "development"
         - name: MESSAGE
-          value: "hello from the backend server 👋"
+          value: {{ .Values.message }}
         {{- range $key := .Values.env_vars }}
         {{- if .value }}
         - name: {{ .name }}

@@ -4,7 +4,7 @@ const _ = require('lodash');
 
 // Get list of todos
 exports.index = function(req, res) {
-  let resp = process.env.MESSAGE == '' ? process.env.MESSAGE : 'hello world'
+  let resp = process.env.MESSAGE ? process.env.MESSAGE : 'hello world'
   return res.status(200).json({"message": resp});
 };
 

@@ -13,7 +13,7 @@ fathom: false
 # OCP route
 route: true
 
-# message: ""
+message: "hello from the backend server 👋"
 
 env_vars:
   # - name: MESSAGE

@@ -3,9 +3,9 @@ entries:
   todolist:
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2022-09-22T23:27:44.958226+01:00"
+    created: "2022-09-22T23:43:52.266339+01:00"
     description: DO500 App - todolist Frontend
-    digest: 6c460ee1c917eb2a8651264c347971764725809bba025809245553b4f8e47b17
+    digest: f76da040c81f9af8c42705172bcdf9f05a1bd3394e255e3a0bc442628d12ccd0
     home: https://petbattle.github.io/helm-charts
     icon: https://avatars1.githubusercontent.com/u/68044996?s=200&v=4
     maintainers:
@@ -18,7 +18,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-09-22T23:27:44.957967+01:00"
+    created: "2022-09-22T23:43:52.266082+01:00"
     description: DO500 App - todolist Frontend
     digest: ce7a8ec8672d0a3c1cb002894ab816fed816046714718cb4f76de15cc42ab49d
     home: https://petbattle.github.io/helm-charts
@@ -31,4 +31,4 @@ entries:
     urls:
     - todolist-1.0.1.tgz
     version: 1.0.1
-generated: "2022-09-22T23:27:44.957616+01:00"
+generated: "2022-09-22T23:43:52.265695+01:00"
