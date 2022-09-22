@@ -5,7 +5,7 @@ image_repository: quay.io
 image_name: do500-todolist
 image_namespace: rht-labs
 # likely over written by the Argo definition
-image_version: latest
+image_version: next
 a_b_deploy:
   weight: 100
   # svc_name:
