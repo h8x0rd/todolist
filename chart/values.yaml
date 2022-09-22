@@ -12,3 +12,9 @@ a_b_deploy:
 fathom: false
 # OCP route
 route: true
+
+# message: ""
+
+env_vars:
+  # - name: MESSAGE
+  #   value: ''

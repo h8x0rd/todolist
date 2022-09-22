@@ -23,6 +23,7 @@ require('./config/express')(app);
 if (config.mocks && config.mocks.api) {
   //add stubs if needed
   require('./mocks/mock-routes')(app);
+  require('./routes')(app);
 } else {
   const mongoose = require('mongoose');
   // Connect to database
@@ -37,7 +38,7 @@ if (config.mocks && config.mocks.api) {
 
 // Start server
 server.listen(config.port, config.ip, function () {
-  console.log('Express server listening on %d, in %s mode', config.port, app.get('env'));
+  console.log(`Express server listening on ${config.ip}:${config.port}, in %s mode`, app.get('env'));
 });
 
 // Expose app

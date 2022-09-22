@@ -9,8 +9,8 @@ module.exports = {
   },
   mocks: {
     // enable this for non mock api
-    // api: true
-    api: false
+    api: true
+    // api: false
   },
   seedDB: true
 };

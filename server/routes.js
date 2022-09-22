@@ -18,6 +18,7 @@ module.exports = function(app) {
   });
   // Insert routes below
   app.use('/api/todos', require('./api/todo'));
+  app.use('/api/hello', require('./api/hello'));
 
   // All undefined asset or api routes should return a 404
   app.route('/:url(api|components|app|bower_components|assets)/*')

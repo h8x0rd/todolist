@@ -7,10 +7,10 @@ metadata:
     {{- include "todolist.labels" . | nindent 4 }}
 spec:
   ports:
-    - port: 8080
+    - port: 9000
       protocol: TCP
-      targetPort: 8080
-      name: 8080-tcp
+      targetPort: 9000
+      name: 9000-tcp
   selector:
     {{- include "todolist.selectorLabels" . | nindent 4 }}
   sessionAffinity: None
